@@ -1,0 +1,113 @@
+
+$colorOfBanner:#94618E;
+$colorOfBackground:#F4DEDB;
+$colorOfImages:#F8EEE7;
+$extraColor:#49274A;
+
+body{
+  background: $colorOfBackground;
+
+}
+span{
+  font-family:Bahnschrift,serif ;
+}
+nav{
+  margin-bottom: 20px;
+  position: fixed;
+  z-index: 100;
+  font-family: Bahnschrift, serif;
+  background-color: $colorOfBanner;
+}
+
+
+div{
+  padding-top: 15%;
+}
+
+.product-grid,.definite-products{
+  text-align: center;
+}
+.product-title{
+  display: block;
+}
+.product-title,.product-price{
+  font-weight: bolder;
+}
+.card{
+
+  text-align: center;
+  vertical-align:top;
+  height:450px;
+  padding: 20px;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+
+}
+.submit_order{
+  padding-top: 50px;
+
+}
+div.col{
+  padding:5px;
+}
+form{
+  padding: 0;
+}
+
+
+.cart-image{
+  width:60%;
+  height:60%;
+  object-fit: contain;
+  margin: 0 auto;
+}
+.cart-box{
+  height:auto;
+}
+.card:hover{
+  -webkit-box-shadow: -4px -4px 21px 9px rgba(222,11,11,0.47);
+  -moz-box-shadow: -4px -4px 21px 9px rgba(222,11,11,0.47);
+  box-shadow: -4px -4px 21px 9px rgba(222,11,11,0.47);
+
+}
+.product-image{
+  margin:0 auto;
+  vertical-align: top;
+  width: 55%;
+  height: 55%;
+  object-fit: contain;
+  cursor: pointer;
+}
+.add-button{
+  margin:0 auto;
+
+}
+.add-button:hover{
+  background-color: darkcyan;
+  transition-timing-function: ease-in-out;
+}
+.add-button:active{
+  background-color: coral;
+  transition-duration: 0.6s;
+}
+.strike{
+  text-decoration: line-through;
+
+}
+
+
+.special{
+  color:orangered;
+}
+.product-details{
+  margin:0 auto;
+
+  text-align:center;
+}
+.product-image-detail{
+  width:55%;
+  height:auto;
+}
+.detail_div{
+  margin:0 auto;
+}
